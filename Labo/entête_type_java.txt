@@ -1,0 +1,14 @@
+/*
+ -----------------------------------------------------------------------------------
+ Laboratoire : <nn>
+ Fichier     : <nom du fichier>.java
+ Auteur(s)   : <prénom> <nom>
+ Date        : <jj.mm.aaaa>
+
+ But         : <à compléter>
+
+ Remarque(s) : <à compléter>
+
+ Compilateur : jdk1.8.0_60
+ -----------------------------------------------------------------------------------
+*/
