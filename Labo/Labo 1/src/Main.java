@@ -14,6 +14,8 @@
 */
 
 public class Main {
+    final static int FR1 = 100; // Constante pour 1 francs
+
     public static void main(String args[]) {
         Ex1();
         Ex2();
@@ -25,11 +27,11 @@ public class Main {
 
     public static void Ex2() {
         int nbPoss = 0; //Nombre de possibilité
-        for (int cent50 = 0 ; cent50 <= 2 ; cent50++) { //Nombre de pièce de 50 centimes
-            for (int cent20 = 0 ; cent20 <= 5 ; cent20++) { //Nombre de pièce de 20 centimes
-                for (int cent10 = 0 ; cent10 <= 10 ; cent10++) { //Nombre de pièce de 10 centimes
-                    for (int cent5 = 0 ; cent5 <= 20 ; cent5++) { //Nombre de pièce de 5 centimes
-                        if (5 * cent5 + 10 * cent10 + 20 * cent20 + 50 * cent50 == 100) { // Control si le résultat est valide (= 1 Frs)
+        for (int cent50 = 0; cent50 <= 2; cent50++) { //Nombre de pièce de 50 centimes
+            for (int cent20 = 0; cent20 <= 5; cent20++) { //Nombre de pièce de 20 centimes
+                for (int cent10 = 0; cent10 <= 10; cent10++) { //Nombre de pièce de 10 centimes
+                    for (int cent5 = 0; cent5 <= 20; cent5++) { //Nombre de pièce de 5 centimes
+                        if (5 * cent5 + 10 * cent10 + 20 * cent20 + 50 * cent50 == FR1) { // Control si le résultat est valide (= 1 Frs)
                             System.out.print("1 Frs = ");
                             if (cent5 != 0) { // Affiche les 5 centimes
                                 System.out.print(cent5 + " x 5 cts");
